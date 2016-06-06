@@ -1,0 +1,30 @@
+.title
+{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.description{
+    color: green;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.image {
+    width: 200px;
+    position: relative;
+    left: 200px;
+}
+
+.chart {
+    width: 100px;
+    height: 100px;
+}
+
+.circ1 {
+    stroke: green;
+    fill: white;
+    stroke-width: 5;
+}
