@@ -19,12 +19,13 @@
 }
 
 .chart {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 500px;
+     position:relative;
 }
 
 .circ1 {
-    stroke: green;
+    stroke: pink;
     fill: white;
     stroke-width: 5;
 }
