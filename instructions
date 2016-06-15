@@ -1,0 +1,29 @@
+//Map function
+var list=[1,2,3,4];
+function mappingFunc(x){
+    return x+1;
+}
+
+var newList = list.map(mappingFunc); //returns a new list
+
+function filterFunc(x){
+    return x<=2;
+}
+
+var anotherList= list.filter(filterFunc); // also retruns a new list
+
+//list.Map
+
+
+
+ // passing a variable into the function.
+ function f2Func(x,minValue){
+    return x>=minValue;
+ }
+ var myVar=2;
+ var newList= list.filter(function(x){
+    return f2Func(x, myVar);
+ });
+
+// call a function that returns a function
+ 
